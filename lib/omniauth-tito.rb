@@ -7,7 +7,7 @@ module OmniAuth
       option :name, :tito
 
       option :client_options, {
-        :site => "http://api.tito.dev",
+        :site => ENV['TITO_OAUTH_URL'] || "https://api.tito.io",
         :authorize_url => "/oauth/authorize"
       }
 
