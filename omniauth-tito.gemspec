@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{An Omniauth Strategy for Tito (https://ti.to)}
   spec.description   = %q{A library to allow apps to connect to Tito to use its API on behalf of a third party}
-  spec.homepage      = "https://github.com/paulca/omniauth-tito"
+  spec.homepage      = "https://github.com/teamtito/omniauth-tito"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
