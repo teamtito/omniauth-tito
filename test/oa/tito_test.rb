@@ -1,8 +1,8 @@
 require 'test_helper'
 
-class Oa::TitoTest < Minitest::Test
+class Omniauth::TitoTest < Minitest::Test
   def test_that_it_has_a_version_number
-    refute_nil ::Oa::Tito::VERSION
+    refute_nil ::Omniauth::Tito::VERSION
   end
 
   def test_it_does_something_useful

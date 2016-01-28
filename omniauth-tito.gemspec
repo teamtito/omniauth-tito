@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'oa/tito/version'
+require 'omniauth-tito/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "omniauth-tito"
-  spec.version       = Oa::Tito::VERSION
+  spec.version       = Omniauth::Tito::VERSION
   spec.authors       = ["Paul Campbell"]
   spec.email         = ["paul@rslw.com"]
 
